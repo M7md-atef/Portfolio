@@ -334,8 +334,8 @@ export const portfolioContent = {
       phone: "+201012741752",
       birthDate: "28/02/2004",
       availability: "جاهز للفرص الوظيفية للمبتدئين وتدريب الشركات (Junior / Intern)",
-      avatarUrl: "/Gemini_Generated_Image_9kv1bh9kv1bh9kv1.PNG",
       resumeUrl: "/Mohamed_Atef_CV.html",
+      avatarUrl: "/Gemini_Generated_Image_9kv1bh9kv1bh9kv1.PNG",
       shortBio: "خريج هندسة الحاسبات والنظم من جامعة المنيا (تقدير: جيد جداً - 77.74%). شغوف بتطوير الواجهات الأمامية باستخدام React.js وتصميم تجارب مستخدم متميزة. أمتلك أساساً هندسياً قوياً في الخوارزميات، قواعد البيانات، والتعلم السريع.",
       fullBio: [
         "مهندس برمجيات حديث التخرج من قسم هندسة الحاسبات والنظم بجامعة المنيا. بنيت خلال دراستي الأكاديمية أساساً علمياً متيناً يشمل هياكل البيانات (Data Structures)، الخوارزميات (Algorithms)، البرمجة كائنية التوجه (OOP)، أنظمة قواعد البيانات وهندسة الحاسبات.",
