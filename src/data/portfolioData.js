@@ -17,7 +17,7 @@ export const portfolioContent = {
       phone: "+201012741752",
       birthDate: "28/02/2004",
       availability: "Ready for Junior Roles, Entry-Level Positions & Internships",
-      avatarUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
+      avatarUrl: "/Gemini_Generated_Image_9kv1bh9kv1bh9kv1.PNG",
       resumeUrl: "/Mohamed_Atef_CV.html",
       shortBio: "Computer & Systems Engineering graduate from Minia University (Grade: Very Good - 77.74%). Passionate about Frontend Engineering, React.js, and clean UI/UX. Driven by high curiosity, fast learning adaptability, and a strong engineering foundation in algorithms, databases, and modern web frameworks.",
       fullBio: [
