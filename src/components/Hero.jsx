@@ -126,7 +126,7 @@ export default function Hero() {
               <img
                 src={t.personalInfo.avatarUrl}
                 alt={t.personalInfo.name}
-                className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
+                className="w-full h-full object-cover object-left-top group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent pointer-events-none" />
             </div>
