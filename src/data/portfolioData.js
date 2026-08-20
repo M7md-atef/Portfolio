@@ -152,7 +152,8 @@ export const portfolioContent = {
         ]
       }
     ],
-    projectCategories: ["All", "Featured Project", "Web Application", "Academic / Full Stack"],
+    // projectCategories: ["All", "Featured Project", "Web Application", "Academic / Full Stack"],
+    projectCategories: ["All", "Featured Project", "Web Application"],
     projects: [
       {
         id: 1,
@@ -188,40 +189,40 @@ export const portfolioContent = {
           "Fully responsive architecture for mobile, tablet, and desktop"
         ]
       },
-      {
-        id: 3,
-        title: "Full-Stack Web Management System",
-        subtitle: "Database-Driven Web Application",
-        category: "Academic / Full Stack",
-        description: "A complete database-driven management application featuring secure user authentication, CRUD operations, relational schema modeling, and responsive administrative dashboards.",
-        image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
-        techStack: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL"],
-        liveUrl: "#",
-        githubUrl: "https://github.com/M7md-atef",
-        featured: false,
-        highlights: [
-          "Relational MySQL database with normalized tables and indexes",
-          "User authentication and session management",
-          "Responsive UI with intuitive form validations"
-        ]
-      },
-      {
-        id: 4,
-        title: "Data Analysis & Metrics Reporting System",
-        subtitle: "Automated Data Processing & Sheet Analysis",
-        category: "Academic / Full Stack",
-        description: "Data analysis project employing advanced equations, pivot tables, and statistical summaries to analyze organizational performance datasets and generate visual decision-making charts.",
-        image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
-        techStack: ["Data Analysis", "Excel Functions", "Statistical Modeling", "Data Visualization"],
-        liveUrl: "#",
-        githubUrl: "https://github.com/M7md-atef",
-        featured: false,
-        highlights: [
-          "Structured analysis of raw operational records",
-          "Automated formula calculations and error checking",
-          "Visual chart reporting for leadership insights"
-        ]
-      }
+      // {
+      //   id: 3,
+      //   title: "Full-Stack Web Management System",
+      //   subtitle: "Database-Driven Web Application",
+      //   category: "Academic / Full Stack",
+      //   description: "A complete database-driven management application featuring secure user authentication, CRUD operations, relational schema modeling, and responsive administrative dashboards.",
+      //   image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
+      //   techStack: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL"],
+      //   liveUrl: "#",
+      //   githubUrl: "https://github.com/M7md-atef",
+      //   featured: false,
+      //   highlights: [
+      //     "Relational MySQL database with normalized tables and indexes",
+      //     "User authentication and session management",
+      //     "Responsive UI with intuitive form validations"
+      //   ]
+      // },
+      // {
+      //   id: 4,
+      //   title: "Data Analysis & Metrics Reporting System",
+      //   subtitle: "Automated Data Processing & Sheet Analysis",
+      //   category: "Academic / Full Stack",
+      //   description: "Data analysis project employing advanced equations, pivot tables, and statistical summaries to analyze organizational performance datasets and generate visual decision-making charts.",
+      //   image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
+      //   techStack: ["Data Analysis", "Excel Functions", "Statistical Modeling", "Data Visualization"],
+      //   liveUrl: "#",
+      //   githubUrl: "https://github.com/M7md-atef",
+      //   featured: false,
+      //   highlights: [
+      //     "Structured analysis of raw operational records",
+      //     "Automated formula calculations and error checking",
+      //     "Visual chart reporting for leadership insights"
+      //   ]
+      // }
     ],
     courses: [
       {
@@ -469,7 +470,8 @@ export const portfolioContent = {
         ]
       }
     ],
-    projectCategories: ["الكل", "مشروع رئيسي", "تطبيقات الويب", "مشاريع أكاديمية"],
+    // projectCategories: ["الكل", "مشروع رئيسي", "تطبيقات الويب", "مشاريع أكاديمية"],
+    projectCategories: ["الكل", "مشروع رئيسي", "تطبيقات الويب"],
     projects: [
       {
         id: 1,
@@ -505,40 +507,40 @@ export const portfolioContent = {
           "دعم ثنائي اللغة مع اتجاه RTL سلس وتصميم متجاوب 100%"
         ]
       },
-      {
-        id: 3,
-        title: "نظام إدارة بيانات الويب المتكامل",
-        subtitle: "تطبيق ويب تفاعلي مع قواعد بيانات علائقية",
-        category: "مشاريع أكاديمية",
-        description: "تطبيق ويب لإدارة البيانات مع مصادقة المستخدمين، عمليات الإضافة والتعديل والحذف (CRUD)، وتصميم قواعد بيانات MySQL مهيكلة.",
-        image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
-        techStack: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL"],
-        liveUrl: "#",
-        githubUrl: "https://github.com/M7md-atef",
-        featured: false,
-        highlights: [
-          "قاعدة بيانات MySQL علائقية مفهرسة ومحسنة",
-          "تسجيل دخول آمن وإدارة الجلسات",
-          "واجهة مستخدم متجاوبة مع التحقق من صحة المدخلات"
-        ]
-      },
-      {
-        id: 4,
-        title: "نظام تحليل البيانات وإصدار التقارير",
-        subtitle: "معالجة وتحليل مجموعات البيانات الإحصائية",
-        category: "مشاريع أكاديمية",
-        description: "مشروع تحليل بيانات يعتمد على المعادلات المتقدمة والجداول المحورية (Pivot Tables) لتحليل سجلات الأداء المؤسسي واستخراج رسوم بيانية توضيحية لمتخذي القرار.",
-        image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
-        techStack: ["Data Analysis", "Excel Functions", "Statistical Modeling", "Data Visualization"],
-        liveUrl: "#",
-        githubUrl: "https://github.com/M7md-atef",
-        featured: false,
-        highlights: [
-          "تنظيم وتحليل السجلات التشغيلية الخام",
-          "معادلات حسابية مؤتمتة وتقارير دقيقة",
-          "رسوم بيانية مرئية لدعم القرارات الإدارية"
-        ]
-      }
+      // {
+      //   id: 3,
+      //   title: "نظام إدارة بيانات الويب المتكامل",
+      //   subtitle: "تطبيق ويب تفاعلي مع قواعد بيانات علائقية",
+      //   category: "مشاريع أكاديمية",
+      //   description: "تطبيق ويب لإدارة البيانات مع مصادقة المستخدمين، عمليات الإضافة والتعديل والحذف (CRUD)، وتصميم قواعد بيانات MySQL مهيكلة.",
+      //   image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
+      //   techStack: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL"],
+      //   liveUrl: "#",
+      //   githubUrl: "https://github.com/M7md-atef",
+      //   featured: false,
+      //   highlights: [
+      //     "قاعدة بيانات MySQL علائقية مفهرسة ومحسنة",
+      //     "تسجيل دخول آمن وإدارة الجلسات",
+      //     "واجهة مستخدم متجاوبة مع التحقق من صحة المدخلات"
+      //   ]
+      // },
+      // {
+      //   id: 4,
+      //   title: "نظام تحليل البيانات وإصدار التقارير",
+      //   subtitle: "معالجة وتحليل مجموعات البيانات الإحصائية",
+      //   category: "مشاريع أكاديمية",
+      //   description: "مشروع تحليل بيانات يعتمد على المعادلات المتقدمة والجداول المحورية (Pivot Tables) لتحليل سجلات الأداء المؤسسي واستخراج رسوم بيانية توضيحية لمتخذي القرار.",
+      //   image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
+      //   techStack: ["Data Analysis", "Excel Functions", "Statistical Modeling", "Data Visualization"],
+      //   liveUrl: "#",
+      //   githubUrl: "https://github.com/M7md-atef",
+      //   featured: false,
+      //   highlights: [
+      //     "تنظيم وتحليل السجلات التشغيلية الخام",
+      //     "معادلات حسابية مؤتمتة وتقارير دقيقة",
+      //     "رسوم بيانية مرئية لدعم القرارات الإدارية"
+      //   ]
+      // }
     ],
     courses: [
       {
