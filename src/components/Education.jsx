@@ -12,6 +12,7 @@ import {
   CheckCircle,
   Sparkles
 } from 'lucide-react';
+import { motion } from 'motion/react';
 import { useLanguage } from '../context/LanguageContext';
 
 const courseIconMap = {
@@ -29,7 +30,13 @@ export default function Education() {
       <div className="max-w-5xl mx-auto space-y-16">
         
         {/* Section Header */}
-        <div className="text-center space-y-3">
+        <motion.div 
+          className="text-center space-y-3"
+          initial={{ opacity: 0, y: 30, filter: 'blur(10px)' }}
+          whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+          viewport={{ amount: 0.3 }}
+          transition={{ duration: 0.7, ease: 'easeOut' }}
+        >
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full glass-pill text-xs font-semibold text-brand-blue dark:text-cyan-300">
             <GraduationCap className="w-3.5 h-3.5 text-brand-cyan" />
             <span>{t.sections.eduSubtitle}</span>
@@ -43,10 +50,16 @@ export default function Education() {
           <p className="text-slate-600 dark:text-slate-400 max-w-xl mx-auto text-sm sm:text-base">
             {t.sections.eduDesc}
           </p>
-        </div>
+        </motion.div>
 
         {/* Major Degree Card */}
-        <div className="glass-card rounded-2xl p-6 sm:p-8 border-2 border-cyan-500/30 hover:border-cyan-400/60 shadow-lg shadow-cyan-500/5 transition-all duration-300 space-y-6">
+        <motion.div 
+          className="glass-card rounded-2xl p-6 sm:p-8 border-2 border-cyan-500/30 hover:border-cyan-400/60 shadow-lg shadow-cyan-500/5 transition-all duration-300 space-y-6"
+          initial={{ opacity: 0, y: 40, filter: 'blur(12px)' }}
+          whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+          viewport={{ amount: 0.2 }}
+          transition={{ duration: 0.8, ease: 'easeOut' }}
+        >
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-200/70 dark:border-slate-800/70">
             <div className="flex items-start gap-3.5">
               <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-cyan-500 to-blue-600 text-white flex items-center justify-center shadow-md flex-shrink-0">
@@ -87,31 +100,48 @@ export default function Education() {
             </h4>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5">
               {t.education.keyTopics.map((topic, idx) => (
-                <div key={idx} className="flex items-center gap-2 text-xs sm:text-sm text-slate-700 dark:text-slate-300 bg-slate-50 dark:bg-slate-800/60 p-2.5 rounded-xl border border-slate-200/80 dark:border-slate-700/60">
+                <motion.div 
+                  key={idx} 
+                  initial={{ opacity: 0, y: 15, filter: 'blur(6px)' }}
+                  whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+                  viewport={{ amount: 0.2 }}
+                  transition={{ duration: 0.4, delay: idx * 0.05, ease: 'easeOut' }}
+                  className="flex items-center gap-2 text-xs sm:text-sm text-slate-700 dark:text-slate-300 bg-slate-50 dark:bg-slate-800/60 p-2.5 rounded-xl border border-slate-200/80 dark:border-slate-700/60"
+                >
                   <CheckCircle className="w-4 h-4 text-brand-cyan flex-shrink-0" />
                   <span>{topic}</span>
-                </div>
+                </motion.div>
               ))}
             </div>
           </div>
-        </div>
+        </motion.div>
 
         {/* Specialized Courses Grid */}
         <div className="space-y-6">
-          <div className="flex items-center justify-between">
+          <motion.div 
+            className="flex items-center justify-between"
+            initial={{ opacity: 0, y: 20, filter: 'blur(8px)' }}
+            whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+            viewport={{ amount: 0.3 }}
+            transition={{ duration: 0.6, ease: 'easeOut' }}
+          >
             <h3 className="text-xl font-bold text-slate-900 dark:text-white flex items-center gap-2">
               <BookOpen className="w-5 h-5 text-brand-cyan" />
               <span>{t.sections.specializedHeading}</span>
             </h3>
             <span className="text-xs text-slate-500 dark:text-slate-400">{t.sections.specializedSub}</span>
-          </div>
+          </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {t.courses.map((course) => {
+            {t.courses.map((course, idx) => {
               const CourseIcon = courseIconMap[course.icon] || Code2;
               return (
-                <div
+                <motion.div
                   key={course.id}
+                  initial={{ opacity: 0, y: 30, filter: 'blur(10px)' }}
+                  whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+                  viewport={{ amount: 0.2 }}
+                  transition={{ duration: 0.6, delay: idx * 0.1, ease: 'easeOut' }}
                   className="group glass-card rounded-2xl p-6 space-y-4 border border-slate-200/80 dark:border-slate-800/80 hover:border-cyan-400/50 hover:shadow-lg hover:shadow-cyan-500/10 transition-all duration-300 flex flex-col justify-between"
                 >
                   <div className="space-y-3">
@@ -142,7 +172,7 @@ export default function Education() {
                     <Sparkles className="w-3.5 h-3.5" />
                     <span>{t.sections.completedBadge}</span>
                   </div>
-                </div>
+                </motion.div>
               );
             })}
           </div>

@@ -6,6 +6,7 @@ import {
   ArrowUpRight,
   ArrowUpLeft
 } from 'lucide-react';
+import { motion, AnimatePresence } from 'motion/react';
 import { GithubIcon } from './Icons';
 import { useLanguage } from '../context/LanguageContext';
 
@@ -24,7 +25,17 @@ export default function Projects() {
       <div className="max-w-6xl mx-auto space-y-12">
         
         {/* Section Header */}
-        <div className="text-center space-y-3">
+        <motion.div 
+          className="text-center space-y-3"
+          initial={{ opacity: 0, scale: 0.85 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ amount: 0.3 }}
+          transition={{ 
+            type: "spring", 
+            stiffness: 110, 
+            damping: 14 
+          }}
+        >
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full glass-pill text-xs font-semibold text-brand-blue dark:text-cyan-300">
             <FolderGit2 className="w-3.5 h-3.5 text-brand-cyan" />
             <span>{t.sections.projectsSubtitle}</span>
@@ -38,10 +49,21 @@ export default function Projects() {
           <p className="text-slate-600 dark:text-slate-400 max-w-xl mx-auto text-sm sm:text-base">
             {t.sections.projectsDesc}
           </p>
-        </div>
+        </motion.div>
 
         {/* Category Filter Tabs */}
-        <div className="flex flex-wrap items-center justify-center gap-2">
+        <motion.div 
+          className="flex flex-wrap items-center justify-center gap-2"
+          initial={{ opacity: 0, scale: 0.8 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ amount: 0.3 }}
+          transition={{ 
+            type: "spring", 
+            stiffness: 120, 
+            damping: 16,
+            delay: 0.1 
+          }}
+        >
           {t.projectCategories.map((category, idx) => (
             <button
               key={category}
@@ -56,13 +78,22 @@ export default function Projects() {
               {category}
             </button>
           ))}
-        </div>
+        </motion.div>
 
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-          {filteredProjects.map((project) => (
-            <div
-              key={project.id}
+          {filteredProjects.map((project, idx) => (
+            <motion.div
+              key={`${project.id}-${activeCategoryIndex}`}
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ amount: 0.2 }}
+              transition={{ 
+                type: "spring", 
+                stiffness: 100, 
+                damping: 15,
+                delay: idx * 0.1 
+              }}
               className="group glass-card rounded-2xl overflow-hidden flex flex-col justify-between border border-slate-200/80 dark:border-slate-800/80 hover:border-cyan-400/50 hover:shadow-xl hover:shadow-cyan-500/10 transition-all duration-300"
             >
               {/* Image Container */}
@@ -120,8 +151,8 @@ export default function Projects() {
                 {/* Key Highlights */}
                 {project.highlights && (
                   <div className="space-y-1 pt-1">
-                    {project.highlights.map((hl, idx) => (
-                      <div key={idx} className="flex items-center gap-2 text-[12px] text-slate-600 dark:text-slate-300">
+                    {project.highlights.map((hl, hIdx) => (
+                      <div key={hIdx} className="flex items-center gap-2 text-[12px] text-slate-600 dark:text-slate-300">
                         <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 flex-shrink-0" />
                         <span>{hl}</span>
                       </div>
@@ -155,12 +186,22 @@ export default function Projects() {
                   </a>
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
 
         {/* GitHub Repos CTA Banner */}
-        <div className="glass-card rounded-2xl p-6 sm:p-8 text-center space-y-4 border border-cyan-500/20 shadow-glow-sm">
+        <motion.div 
+          className="glass-card rounded-2xl p-6 sm:p-8 text-center space-y-4 border border-cyan-500/20 shadow-glow-sm"
+          initial={{ opacity: 0, scale: 0.85 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ amount: 0.3 }}
+          transition={{ 
+            type: "spring", 
+            stiffness: 100, 
+            damping: 14 
+          }}
+        >
           <h3 className="text-xl font-bold text-slate-900 dark:text-white">
             {t.sections.githubBannerTitle}
           </h3>
@@ -176,7 +217,7 @@ export default function Projects() {
             <GithubIcon className="w-4 h-4 text-brand-cyan" />
             <span>{t.cta.visitGithub}</span>
           </a>
-        </div>
+        </motion.div>
 
       </div>
     </section>

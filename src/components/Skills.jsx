@@ -6,6 +6,7 @@ import {
   CheckCircle2,
   Code
 } from 'lucide-react';
+import { motion } from 'motion/react';
 import { useLanguage } from '../context/LanguageContext';
 
 const categoryIconMap = {
@@ -27,7 +28,13 @@ export default function Skills() {
       <div className="max-w-6xl mx-auto space-y-12">
         
         {/* Section Header */}
-        <div className="text-center space-y-3">
+        <motion.div 
+          className="text-center space-y-3"
+          initial={{ opacity: 0, y: -30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ amount: 0.3 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+        >
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full glass-pill text-xs font-semibold text-brand-blue dark:text-cyan-300">
             <Code className="w-3.5 h-3.5 text-brand-cyan" />
             <span>{t.sections.skillsSubtitle}</span>
@@ -41,10 +48,16 @@ export default function Skills() {
           <p className="text-slate-600 dark:text-slate-400 max-w-xl mx-auto text-sm sm:text-base">
             {t.sections.skillsDesc}
           </p>
-        </div>
+        </motion.div>
 
         {/* Category Filter Tabs */}
-        <div className="flex flex-wrap items-center justify-center gap-2">
+        <motion.div 
+          className="flex flex-wrap items-center justify-center gap-2"
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ amount: 0.3 }}
+          transition={{ duration: 0.4 }}
+        >
           <button
             onClick={() => setSelectedCategoryIndex(-1)}
             className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-300
@@ -71,16 +84,22 @@ export default function Skills() {
               {cat.category}
             </button>
           ))}
-        </div>
+        </motion.div>
 
         {/* Skills Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {displayedCategories.map((group) => {
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 overflow-hidden sm:overflow-visible">
+          {displayedCategories.map((group, groupIdx) => {
             const CatIcon = categoryIconMap[group.icon] || Layout;
+            // Alternate entry directions: Even index from Left (-60px), Odd index from Right (60px)
+            const slideFromX = groupIdx % 2 === 0 ? -60 : 60;
 
             return (
-              <div
+              <motion.div
                 key={group.category}
+                initial={{ opacity: 0, x: slideFromX }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ amount: 0.2 }}
+                transition={{ duration: 0.6, delay: groupIdx * 0.1, ease: "easeOut" }}
                 className="glass-card rounded-2xl p-6 space-y-6 border border-slate-200/80 dark:border-slate-800/80 hover:border-cyan-400/40 transition-all duration-200"
               >
                 {/* Category Header */}
@@ -114,23 +133,32 @@ export default function Skills() {
                         </div>
                       </div>
 
-                      {/* Progress Bar */}
+                      {/* Animated Progress Bar */}
                       <div className="w-full h-1.5 rounded-full bg-slate-100 dark:bg-slate-800/90 overflow-hidden">
-                        <div
+                        <motion.div
                           className="h-full rounded-full bg-gradient-to-r from-brand-cyan via-brand-sky to-brand-blue"
-                          style={{ width: `${skill.level}%` }}
+                          initial={{ width: 0 }}
+                          whileInView={{ width: `${skill.level}%` }}
+                          viewport={{ amount: 0.2 }}
+                          transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
                         />
                       </div>
                     </div>
                   ))}
                 </div>
-              </div>
+              </motion.div>
             );
           })}
         </div>
 
         {/* Quick Tech Badges */}
-        <div className="glass-card rounded-2xl p-6 text-center space-y-4 border border-slate-200/80 dark:border-slate-800/80">
+        <motion.div 
+          className="glass-card rounded-2xl p-6 text-center space-y-4 border border-slate-200/80 dark:border-slate-800/80"
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ amount: 0.2 }}
+          transition={{ duration: 0.5 }}
+        >
           <span className="text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-widest">
             {t.sections.alsoExpWith}
           </span>
@@ -139,16 +167,20 @@ export default function Skills() {
               "React Hooks", "DOM Manipulation", "SQL Queries", "Relational Schema", 
               "Docker Basics", "Linux Bash", "Object-Oriented Programming (OOP)", "Git Branches",
               "REST APIs", "Tailwind CSS", "Vite", "Excel Formulas & Pivots"
-            ].map((tag) => (
-              <span
+            ].map((tag, idx) => (
+              <motion.span
                 key={tag}
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ amount: 0.2 }}
+                transition={{ duration: 0.3, delay: idx * 0.04 }}
                 className="px-3 py-1.5 rounded-xl text-xs font-medium bg-slate-100/90 dark:bg-slate-800/70 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60 hover:border-cyan-400/60 hover:text-brand-cyan transition-colors cursor-default"
               >
                 {tag}
-              </span>
+              </motion.span>
             ))}
           </div>
-        </div>
+        </motion.div>
 
       </div>
     </section>
