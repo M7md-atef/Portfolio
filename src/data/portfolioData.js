@@ -17,7 +17,7 @@ export const portfolioContent = {
       phone: "+201012741752",
       birthDate: "28/02/2004",
       availability: "Ready for Junior Roles, Entry-Level Positions & Internships",
-      avatarUrl: "/Gemini_Generated_Image_9kv1bh9kv1bh9kv1.PNG",
+      avatarUrl: "/Gemini_Generated_Image_s8rvt5s8rvt5s8rv.PNG",
       resumeUrl: "/Mohamed_Atef_CV.html",
       shortBio: "Computer & Systems Engineering graduate from Minia University (Grade: Very Good - 77.74%). Passionate about Frontend Engineering, React.js, and clean UI/UX. Driven by high curiosity, fast learning adaptability, and a strong engineering foundation in algorithms, databases, and modern web frameworks.",
       fullBio: [
@@ -336,7 +336,7 @@ export const portfolioContent = {
       birthDate: "28/02/2004",
       availability: "جاهز للفرص الوظيفية للمبتدئين وتدريب الشركات (Junior / Intern)",
       resumeUrl: "/Mohamed_Atef_CV.html",
-      avatarUrl: "/Gemini_Generated_Image_9kv1bh9kv1bh9kv1.PNG",
+      avatarUrl: "/Gemini_Generated_Image_s8rvt5s8rvt5s8rv.PNG",
       shortBio: "خريج هندسة الحاسبات والنظم من جامعة المنيا (تقدير: جيد جداً - 77.74%). شغوف بتطوير الواجهات الأمامية باستخدام React.js وتصميم تجارب مستخدم متميزة. أمتلك أساساً هندسياً قوياً في الخوارزميات، قواعد البيانات، والتعلم السريع.",
       fullBio: [
         "مهندس برمجيات حديث التخرج من قسم هندسة الحاسبات والنظم بجامعة المنيا. بنيت خلال دراستي الأكاديمية أساساً علمياً متيناً يشمل هياكل البيانات (Data Structures)، الخوارزميات (Algorithms)، البرمجة كائنية التوجه (OOP)، أنظمة قواعد البيانات وهندسة الحاسبات.",
