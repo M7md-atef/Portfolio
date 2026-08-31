@@ -152,7 +152,6 @@ export const portfolioContent = {
         ]
       }
     ],
-    // projectCategories: ["All", "Featured Project", "Web Application", "Academic / Full Stack"],
     projectCategories: ["All", "Featured Project", "Web Application"],
     projects: [
       {
@@ -163,7 +162,7 @@ export const portfolioContent = {
         description: "A specialized web-based governance and performance-measurement platform engineered to replace paper-based quality-assurance and institutional governance processes currently used at Minia University's Faculty of Engineering.",
         image: "/NEFREX.PNG",
         techStack: ["React.js", "Vite", "Tailwind CSS", "Lucide Icons", "Node.js", "JavaScript", "TypeScript", "Python", "PostgreSQL", "LocalStorage", "Git"],
-        liveUrl: "#",
+        liveUrl: "https://nefrex-dyeuc3ege3a3dwbt.italynorth-01.azurewebsites.net",
         githubUrl: "https://github.com/M7md-atef/NEFREX",
         featured: true,
         highlights: [
@@ -180,7 +179,7 @@ export const portfolioContent = {
         description: "Modern, responsive personal portfolio web application built with React, Tailwind CSS, and glassmorphic UI principles, featuring animated collapsible navigation, custom color schemes, and theme persistence.",
         image: "/Portfolio.PNG",
         techStack: ["React.js", "Vite", "Tailwind CSS", "Lucide Icons", "LocalStorage"],
-        liveUrl: "#",
+        liveUrl: "https://portfolio-theta-pearl-cergkjbdgy.vercel.app/",
         githubUrl: "https://github.com/M7md-atef/Portfolio",
         featured: true,
         highlights: [
@@ -189,40 +188,23 @@ export const portfolioContent = {
           "Fully responsive architecture for mobile, tablet, and desktop"
         ]
       },
-      // {
-      //   id: 3,
-      //   title: "Full-Stack Web Management System",
-      //   subtitle: "Database-Driven Web Application",
-      //   category: "Academic / Full Stack",
-      //   description: "A complete database-driven management application featuring secure user authentication, CRUD operations, relational schema modeling, and responsive administrative dashboards.",
-      //   image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
-      //   techStack: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL"],
-      //   liveUrl: "#",
-      //   githubUrl: "https://github.com/M7md-atef",
-      //   featured: false,
-      //   highlights: [
-      //     "Relational MySQL database with normalized tables and indexes",
-      //     "User authentication and session management",
-      //     "Responsive UI with intuitive form validations"
-      //   ]
-      // },
-      // {
-      //   id: 4,
-      //   title: "Data Analysis & Metrics Reporting System",
-      //   subtitle: "Automated Data Processing & Sheet Analysis",
-      //   category: "Academic / Full Stack",
-      //   description: "Data analysis project employing advanced equations, pivot tables, and statistical summaries to analyze organizational performance datasets and generate visual decision-making charts.",
-      //   image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
-      //   techStack: ["Data Analysis", "Excel Functions", "Statistical Modeling", "Data Visualization"],
-      //   liveUrl: "#",
-      //   githubUrl: "https://github.com/M7md-atef",
-      //   featured: false,
-      //   highlights: [
-      //     "Structured analysis of raw operational records",
-      //     "Automated formula calculations and error checking",
-      //     "Visual chart reporting for leadership insights"
-      //   ]
-      // }
+      {
+        id: 3,
+        title: "Al-Mahfza – Fintech Remittance & Digital Wallet Platform",
+        subtitle: "Cross-Border Digital Wallet & Money Transfer Platform",
+        category: "Web Application",
+        description: "A modern, conversion-driven fintech landing page engineered for digital remittance and cross-border money transfers, prioritizing user trust, mobile-first design, and seamless interactive payment flows.",
+        image: "/Al-Mahfza.PNG",
+        techStack: ["Next.js", "React.js", "TypeScript", "Tailwind CSS", "Lucide Icons", "Git", "Vercel"],
+        liveUrl: "https://al-mahfza.vercel.app/",
+        githubUrl: "https://github.com/M7md-atef/Al-Mahfza",
+        featured: false,
+        highlights: [
+          "Engineered mobile-first interactive payment flows, security assurances, and CTA sections",
+          "Built a high-conversion digital remittance experience with smooth UX and trust-focused design",
+          "Architected reusable component pipelines backed by clean, data-driven content structures"
+        ]
+      },
     ],
     courses: [
       {
@@ -470,7 +452,6 @@ export const portfolioContent = {
         ]
       }
     ],
-    // projectCategories: ["الكل", "مشروع رئيسي", "تطبيقات الويب", "مشاريع أكاديمية"],
     projectCategories: ["الكل", "مشروع رئيسي", "تطبيقات الويب"],
     projects: [
       {
@@ -479,9 +460,9 @@ export const portfolioContent = {
         subtitle: "منصة ويب لحوكمة وضمان الجودة لكلية الهندسة بجامعة المنيا",
         category: "مشروع رئيسي",
         description: "منصة ويب متكاملة لقياس الأداء المؤسسي وميكنة عمليات ضمان الجودة والاعتماد الأكاديمي، تم بناؤها لاستبدال العمليات الورقية التقليدية بكلية الهندسة جامعة المنيا بنظام رقمي تفاعلي.",
-        image: "/NEFREX.PNG",
+        image: "/NEFREX_AR.PNG",
         techStack: ["React.js", "Vite", "Tailwind CSS", "Lucide Icons", "Node.js", "JavaScript", "TypeScript", "Python", "PostgreSQL", "LocalStorage", "Git"],
-        liveUrl: "#",
+        liveUrl: "https://nefrex-dyeuc3ege3a3dwbt.italynorth-01.azurewebsites.net",
         githubUrl: "https://github.com/M7md-atef/NEFREX",
         featured: true,
         highlights: [
@@ -496,9 +477,9 @@ export const portfolioContent = {
         subtitle: "تطبيق ويب أحادي الصفحة عالي الأداء",
         category: "تطبيقات الويب",
         description: "موقع شخصي متكامل ومتجاوب تم بناؤه باستخدام React و Tailwind CSS وتأثيرات Glassmorphism، يدعم التبديل السلس بين الوضع الليلي والنهاري ودعم كامل للغتين العربية والإنجليزية.",
-        image: "/Portfolio.PNG",
+        image: "/Portfolio_AR.PNG",
         techStack: ["React.js", "Vite", "Tailwind CSS", "Lucide Icons", "LocalStorage"],
-        liveUrl: "#",
+        liveUrl: "https://portfolio-theta-pearl-cergkjbdgy.vercel.app/",
         githubUrl: "https://github.com/M7md-atef/Portfolio",
         featured: true,
         highlights: [
@@ -507,40 +488,23 @@ export const portfolioContent = {
           "دعم ثنائي اللغة مع اتجاه RTL سلس وتصميم متجاوب 100%"
         ]
       },
-      // {
-      //   id: 3,
-      //   title: "نظام إدارة بيانات الويب المتكامل",
-      //   subtitle: "تطبيق ويب تفاعلي مع قواعد بيانات علائقية",
-      //   category: "مشاريع أكاديمية",
-      //   description: "تطبيق ويب لإدارة البيانات مع مصادقة المستخدمين، عمليات الإضافة والتعديل والحذف (CRUD)، وتصميم قواعد بيانات MySQL مهيكلة.",
-      //   image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
-      //   techStack: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL"],
-      //   liveUrl: "#",
-      //   githubUrl: "https://github.com/M7md-atef",
-      //   featured: false,
-      //   highlights: [
-      //     "قاعدة بيانات MySQL علائقية مفهرسة ومحسنة",
-      //     "تسجيل دخول آمن وإدارة الجلسات",
-      //     "واجهة مستخدم متجاوبة مع التحقق من صحة المدخلات"
-      //   ]
-      // },
-      // {
-      //   id: 4,
-      //   title: "نظام تحليل البيانات وإصدار التقارير",
-      //   subtitle: "معالجة وتحليل مجموعات البيانات الإحصائية",
-      //   category: "مشاريع أكاديمية",
-      //   description: "مشروع تحليل بيانات يعتمد على المعادلات المتقدمة والجداول المحورية (Pivot Tables) لتحليل سجلات الأداء المؤسسي واستخراج رسوم بيانية توضيحية لمتخذي القرار.",
-      //   image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
-      //   techStack: ["Data Analysis", "Excel Functions", "Statistical Modeling", "Data Visualization"],
-      //   liveUrl: "#",
-      //   githubUrl: "https://github.com/M7md-atef",
-      //   featured: false,
-      //   highlights: [
-      //     "تنظيم وتحليل السجلات التشغيلية الخام",
-      //     "معادلات حسابية مؤتمتة وتقارير دقيقة",
-      //     "رسوم بيانية مرئية لدعم القرارات الإدارية"
-      //   ]
-      // }
+      {
+        id: 3,
+        title: "المحفظة – منصة التحويلات المالية والمحفظة الرقمية",
+        subtitle: "منصة المحفظة الرقمية وتحويل الأموال عبر الحدود",
+        category: "تطبيقات الويب",
+        description: "صفحة هبوط حديثة وموجهة لزيادة التحويلات (Conversion-driven) في مجال التكنولوجيا المالية، تم تطويرها للتحويلات الرقمية وعبر الحدود مع التركيز على تعزيز ثقة المستخدم، التصميم الموجه للهواتف أولاً (Mobile-first)، وتدفقات دفع تفاعلية وسلسة.",
+        image: "/Al-Mahfza_AR.PNG",
+        techStack: ["Next.js", "React.js", "TypeScript", "Tailwind CSS", "Lucide Icons", "Git", "Vercel"],
+        liveUrl: "https://al-mahfza.vercel.app/",
+        githubUrl: "https://github.com/M7md-atef/Al-Mahfza",
+        featured: false,
+        highlights: [
+          "تطوير تدفقات دفع تفاعلية تتوافق مع الهواتف أولاً، مع أقسام لضمانات الأمان ودعوات اتخاذ الإجراء (CTA)",
+          "بناء تجربة تحويل أموال رقمية تهدف لتحقيق أعلى معدلات تحويل مع تجربة مستخدم سلسة وتصميم يعزز الثقة",
+          "تصميم بنية مكونات قابلة لإعادة الاستخدام مدعومة بهيكل محتوى نظيف وموجه بالبيانات"
+        ]
+      },
     ],
     courses: [
       {
