@@ -18,7 +18,7 @@ export const portfolioContent = {
       birthDate: "28/02/2004",
       availability: "Available for Full-Time Software Engineering & Web Development Roles",
       avatarUrl: "/Gemini_Generated_Image_s8rvt5s8rvt5s8rv.PNG",
-      resumeUrl: "/Mohamed_Atef_CV.html",
+      resumeUrl: "/Mohamed_Atef_CV.pdf",
       shortBio: "Software Engineer with a Computer & Systems Engineering degree from Minia University. Specialized in building modern, high-performance web applications with a focus on scalable UI design, clean code architecture, and fast tech-stack adaptability.",
       fullBio: [
         "I am a Software Engineer with a Computer & Systems Engineering background and deep core expertise in modern software architecture. During my engineering studies at Minia University, I built a strong foundation spanning Data Structures, Algorithms, Object-Oriented Programming (OOP), Databases, and Distributed Systems.",
@@ -317,7 +317,7 @@ export const portfolioContent = {
       phone: "+201012741752",
       birthDate: "28/02/2004",
       availability: "متاح لفرص تطوير البرمجيات وتطبيقات الويب (Full-Time / Remote)",
-      resumeUrl: "/Mohamed_Atef_CV.html",
+      resumeUrl: "/Mohamed_Atef_CV.pdf",
       avatarUrl: "/Gemini_Generated_Image_s8rvt5s8rvt5s8rv.PNG",
       shortBio: "مهندس برمجيات من قسم هندسة الحاسبات والنظم بجامعة المنيا. متخصص في بناء تطبيقات ويب عصرية وعالية الأداء مع التركيز على تصميم واجهات مستخدم قابلة للتوسع، هندسة كود نظيف، وسرعة التكيف مع أحدث أطر العمل والتقنيات.",
       fullBio: [
