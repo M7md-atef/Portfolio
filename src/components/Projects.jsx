@@ -123,13 +123,13 @@ export default function Projects() {
                 {/* Quick Action Overlay */}
                 <div className="absolute inset-0 flex items-center justify-center gap-3 opacity-0 group-hover:opacity-100 backdrop-blur-[2px] bg-slate-950/40 transition-all duration-300">
                   <a
-                    href={project.githubUrl}
+                    href={project.liveUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 rounded-full bg-slate-800 text-white hover:bg-slate-700 hover:scale-110 shadow-lg transition-all"
-                    title="View Source Code"
+                    title="View Live Project"
                   >
-                    <GithubIcon className="w-4 h-4" />
+                    <ExternalLink className="w-4 h-4" />
                   </a>
                 </div>
               </div>
