@@ -9,31 +9,31 @@ export const portfolioContent = {
       name: "Mohamed Atef",
       firstName: "Mohamed",
       lastName: "Atef",
-      title: "Software Engineer & Frontend Developer",
-      roleSubtitle: "Fresh Engineering Graduate • Computer & Systems Major",
-      tagline: "Building clean, responsive, and user-centric web applications with React.js & modern frontend technologies.",
+      title: "Software Engineer",
+      roleSubtitle: "Computer & Systems Engineer • Web & Software Solutions",
+      tagline: "Building clean, responsive, and user-centric web applications with React.js, Next.js, and modern web architectures.",
       location: "Cairo, Egypt (Open to On-site & Remote)",
       email: "mohamed110377@gmail.com",
       phone: "+201012741752",
       birthDate: "28/02/2004",
-      availability: "Ready for Junior Roles, Entry-Level Positions & Internships",
+      availability: "Available for Full-Time Software Engineering & Web Development Roles",
       avatarUrl: "/Gemini_Generated_Image_s8rvt5s8rvt5s8rv.PNG",
       resumeUrl: "/Mohamed_Atef_CV.html",
-      shortBio: "Computer & Systems Engineering graduate from Minia University (Grade: Very Good - 77.74%). Passionate about Frontend Engineering, React.js, and clean UI/UX. Driven by high curiosity, fast learning adaptability, and a strong engineering foundation in algorithms, databases, and modern web frameworks.",
+      shortBio: "Software Engineer with a Computer & Systems Engineering degree from Minia University. Specialized in building modern, high-performance web applications with a focus on scalable UI design, clean code architecture, and fast tech-stack adaptability.",
       fullBio: [
-        "I am a fresh Computer & Systems Engineering graduate with a strong passion for Frontend Engineering and modern software design. During my academic journey at Minia University, I built a solid foundation in computer science fundamentals—spanning Data Structures, Algorithms, Object-Oriented Programming (OOP), Databases, and Computer Architecture.",
-        "My core focus is on building clean, interactive, and responsive web interfaces using React.js, JavaScript, and Tailwind CSS. I engineered 'NEFREX', a comprehensive governance and performance-measurement web platform developed for Minia University's Faculty of Engineering to modernize legacy paper-based workflows.",
-        "As an entry-level engineer, my greatest strength is rapid adaptability. I actively seek out challenging environments where I can learn from experienced mentors, contribute clean and maintainable code, and grow into a high-impact software engineer."
+        "I am a Software Engineer with a Computer & Systems Engineering background and deep core expertise in modern software architecture. During my engineering studies at Minia University, I built a strong foundation spanning Data Structures, Algorithms, Object-Oriented Programming (OOP), Databases, and Distributed Systems.",
+        "My primary engineering focus centers on architecting clean, interactive, and responsive web applications using React.js, Next.js, TypeScript, and Tailwind CSS. Notably, I engineered 'NEFREX'—an enterprise-grade institutional governance platform designed for Minia University to digitize and automate complex quality-assurance workflows.",
+        "Driven by clean code principles and architectural maintainability, I excel in fast-paced environments where I can leverage my problem-solving skills, collaborate on high-scale systems, and deliver impactful digital products."
       ]
     },
     heroBadges: [
-      "Frontend / React.js Developer",
+      "Software Engineer",
       "Computer & Systems Engineer",
-      "Clean Code & UI/UX Focused",
-      "Fast Learner & Adaptable"
+      "Clean Code & Web Architecture",
+      "Fast Tech-Stack Adaptability"
     ],
     floatingBadges: {
-      b1: "React.js & JS",
+      b1: "React.js & TypeScript",
       b2: "Tailwind & UI/UX",
       b3: "C++ & Python"
     },
@@ -52,29 +52,29 @@ export const portfolioContent = {
       {
         id: 1,
         value: "2026",
-        label: "Engineering Graduate",
+        label: "Engineering Qualification",
         description: "B.S. in Computer & Systems",
         icon: "GraduationCap"
       },
       {
         id: 2,
         value: "77.74%",
-        label: "Very Good Grade",
+        label: "Very Good Distinction",
         description: "Minia University Engineering",
         icon: "Award"
       },
       {
         id: 3,
         value: "100%",
-        label: "Growth & Work Ethic",
-        description: "Eager to learn & deliver",
+        label: "Productivity & Quality",
+        description: "Dedicated to scalable solutions",
         icon: "Zap"
       },
       {
         id: 4,
         value: "4+",
-        label: "Specialized Courses",
-        description: "Full-Stack, DB, Security, Excel",
+        label: "Domain Specializations",
+        description: "Full-Stack, DB, Security, Analytics",
         icon: "BookOpen"
       }
     ],
@@ -119,8 +119,8 @@ export const portfolioContent = {
         category: "Web & Frontend Frameworks",
         icon: "Layout",
         skills: [
-          { name: "React.js (Hooks & Components)", level: 88, tag: "Primary" },
-          { name: "JavaScript (ES6+) & DOM", level: 85, tag: "Proficient" },
+          { name: "React.js & Next.js", level: 88, tag: "Primary Stack" },
+          { name: "JavaScript (ES6+) & TypeScript", level: 85, tag: "Proficient" },
           { name: "Tailwind CSS & Modern Styling", level: 90, tag: "Advanced" },
           { name: "HTML5 & Semantic Markup", level: 92, tag: "Advanced" },
           { name: "CSS3 (Flexbox, Grid, Animations)", level: 90, tag: "Advanced" },
@@ -131,24 +131,24 @@ export const portfolioContent = {
         category: "Programming Languages & Backend",
         icon: "Server",
         skills: [
-          { name: "C / C++ (OOP & Algorithms)", level: 82, tag: "Core" },
-          { name: "Python", level: 80, tag: "Proficient" },
+          { name: "C / C++ (OOP & Algorithms)", level: 82, tag: "Core Engineering" },
+          { name: "Python & Django Basics", level: 80, tag: "Proficient" },
           { name: "PHP & Web Backend Logic", level: 75, tag: "Working Knowledge" },
-          { name: "MySQL & Relational Databases", level: 82, tag: "Proficient" },
-          { name: "RESTful API Integration", level: 80, tag: "Proficient" },
+          { name: "MySQL & PostgreSQL", level: 82, tag: "Proficient" },
+          { name: "RESTful API Integration", level: 85, tag: "Proficient" },
           { name: "Database Design & SQL Queries", level: 84, tag: "Proficient" }
         ]
       },
       {
-        category: "Developer Tools & Platforms",
+        category: "Developer Tools & Infrastructure",
         icon: "Wrench",
         skills: [
           { name: "Git & GitHub Version Control", level: 88, tag: "Advanced" },
           { name: "Docker (Containerization Basics)", level: 72, tag: "Familiar" },
-          { name: "Linux / Kali Linux Command Line", level: 78, tag: "Proficient" },
+          { name: "Linux Command Line Environment", level: 78, tag: "Proficient" },
           { name: "VS Code & Debugging Tools", level: 90, tag: "Advanced" },
           { name: "Vite & Modern Build Tooling", level: 85, tag: "Proficient" },
-          { name: "Microsoft Excel (Data Analysis)", level: 85, tag: "Proficient" }
+          { name: "Data Analysis & Tools", level: 85, tag: "Proficient" }
         ]
       }
     ],
@@ -204,7 +204,7 @@ export const portfolioContent = {
           "Built a high-conversion digital remittance experience with smooth UX and trust-focused design",
           "Architected reusable component pipelines backed by clean, data-driven content structures"
         ]
-      },
+      }
     ],
     courses: [
       {
@@ -256,26 +256,26 @@ export const portfolioContent = {
       aboutSubtitle: "Candidate Profile",
       aboutTitle: "About",
       aboutTitleHighlight: "Me",
-      aboutDesc: "Fresh Computer & Systems Engineering Graduate with a passion for frontend development, strong foundation, and rapid adaptability.",
-      softSkillsTitle: "Core Strengths & Soft Skills",
-      softSkillsSubtitle: "What makes me a high-potential hire",
+      aboutDesc: "Software Engineer with a Computer & Systems background, dedicated to architecting scalable web applications and high-performance UI systems.",
+      softSkillsTitle: "Core Strengths & Technical Value",
+      softSkillsSubtitle: "What makes me a strong engineering team member",
       languagesTitle: "Languages",
       languagesSubtitle: "Effective communication in multinational team settings",
       skillsSubtitle: "Technical Capabilities",
       skillsTitle: "Skills &",
       skillsTitleHighlight: "Technologies",
-      skillsDesc: "A solid engineering stack built through intensive university coursework and practical project engineering.",
+      skillsDesc: "A solid software engineering stack built through rigorous university computer science and hands-on project implementations.",
       alsoExpWith: "Also Experienced With",
       projectsSubtitle: "Featured Work",
       projectsTitle: "Selected",
       projectsTitleHighlight: "Projects",
-      projectsDesc: "Showcase of academic platforms, web applications, and database-driven systems.",
+      projectsDesc: "Showcase of institutional web platforms, fintech interfaces, and software architectures.",
       githubBannerTitle: "Interested in exploring more code & repositories?",
       githubBannerDesc: "Check out my GitHub profile for full repository architectures and source code.",
       eduSubtitle: "Academic & Continuous Learning",
       eduTitle: "Education &",
       eduTitleHighlight: "Courses",
-      eduDesc: "Strong computer & systems engineering foundation complemented by specialized web, database, and security training.",
+      eduDesc: "Strong computer & systems engineering foundation complemented by specialized web, database, and software architecture training.",
       courseworkHeading: "Core Engineering Coursework & Concepts Mastered",
       specializedHeading: "Specialized Technical Training & Courses",
       specializedSub: "Practical domain certifications",
@@ -283,13 +283,13 @@ export const portfolioContent = {
       contactSubtitle: "Let's Connect",
       contactTitle: "Get In",
       contactTitleHighlight: "Touch",
-      contactDesc: "I am currently open to Junior Software Engineer, Frontend Developer, and Internship opportunities. Let's discuss how I can contribute to your team!",
+      contactDesc: "I am currently open to Software Engineering, Frontend Development, and Full-Stack opportunities. Let's discuss how I can contribute to your team!",
       contactDetails: "Contact Details",
       directEmail: "Direct Email",
       phoneWhatsapp: "Phone / WhatsApp",
       location: "Location",
       employmentStatus: "Employment Status",
-      readyToStart: "Ready to start immediately",
+      readyToStart: "Available for Immediate Onboarding",
       socialProfiles: "Professional Profiles",
       sendMessageTitle: "Send a Direct Message",
       sendMessageDesc: "Recruiters and hiring managers: send an email or note directly through this form.",
@@ -309,31 +309,31 @@ export const portfolioContent = {
       name: "محمد عاطف",
       firstName: "محمد",
       lastName: "عاطف",
-      title: "مهندس برمجيات ومطور واجهات أمامية",
-      roleSubtitle: "خريج هندسة حديث • تخصص حاسبات ونظم",
-      tagline: "تطوير تطبيقات ويب عصرية، سريعة وسهلة الاستخدام باستخدام React.js وأحدث تقنيات الويب.",
+      title: "مهندس برمجيات",
+      roleSubtitle: "مهندس حاسبات ونظم • تطوير البرمجيات وحلول الويب",
+      tagline: "تطوير تطبيقات ويب عصرية وعالية الأداء باستخدام React.js و Next.js وأحدث أطر عمل الويب.",
       location: "القاهرة، مصر (متاح للعمل الحضوري وعن بُعد)",
       email: "mohamed110377@gmail.com",
       phone: "+201012741752",
       birthDate: "28/02/2004",
-      availability: "جاهز للفرص الوظيفية للمبتدئين وتدريب الشركات (Junior / Intern)",
+      availability: "متاح لفرص تطوير البرمجيات وتطبيقات الويب (Full-Time / Remote)",
       resumeUrl: "/Mohamed_Atef_CV.html",
       avatarUrl: "/Gemini_Generated_Image_s8rvt5s8rvt5s8rv.PNG",
-      shortBio: "خريج هندسة الحاسبات والنظم من جامعة المنيا (تقدير: جيد جداً - 77.74%). شغوف بتطوير الواجهات الأمامية باستخدام React.js وتصميم تجارب مستخدم متميزة. أمتلك أساساً هندسياً قوياً في الخوارزميات، قواعد البيانات، والتعلم السريع.",
+      shortBio: "مهندس برمجيات من قسم هندسة الحاسبات والنظم بجامعة المنيا. متخصص في بناء تطبيقات ويب عصرية وعالية الأداء مع التركيز على تصميم واجهات مستخدم قابلة للتوسع، هندسة كود نظيف، وسرعة التكيف مع أحدث أطر العمل والتقنيات.",
       fullBio: [
-        "مهندس برمجيات حديث التخرج من قسم هندسة الحاسبات والنظم بجامعة المنيا. بنيت خلال دراستي الأكاديمية أساساً علمياً متيناً يشمل هياكل البيانات (Data Structures)، الخوارزميات (Algorithms)، البرمجة كائنية التوجه (OOP)، أنظمة قواعد البيانات وهندسة الحاسبات.",
-        "أركز على بناء واجهات ويب تفاعلية وسلسة باستخدام React.js و JavaScript و Tailwind CSS. قمت بتطوير منصة 'NEFREX' وهي منصة حوكمة وقياس أداء إلكترونية تم تطويرها لكلية الهندسة بجامعة المنيا لتحويل العمليات الورقية لضمان الجودة إلى نظام رقمي متكامل.",
-        "أهم ما يميزني كمهندس مبتدئ هو سرعة التعلم والتكيف والحرص على تطبيق أفضل الممارسات البرمجية (Clean Code). أبحث عن بيئة عمل طموحة تتيح لي اكتساب الخبرة العملية والمساهمة الفعالة في إنجاح المشاريع."
+        "مهندس برمجيات من قسم هندسة الحاسبات والنظم بجامعة المنيا. بنيت خلال دراستي الهندسيّة أساساً أكاديمياً وتقنياً متيناً يشمل هياكل البيانات (Data Structures)، الخوارزميات (Algorithms)، البرمجة كائنية التوجه (OOP)، أنظمة قواعد البيانات ومعمارية البرمجيات.",
+        "أركز على بناء وتطوير تطبيقات ويب تفاعلية وسلسة باستخدام React.js و Next.js و TypeScript و Tailwind CSS. قمت بتطوير منصة 'NEFREX' وهي منصة حوكمة وقياس أداء إلكترونية تم تطويرها لكلية الهندسة بجامعة المنيا لتحويل العمليات الورقية لضمان الجودة إلى نظام رقمي متكامل.",
+        "أهم ما يميزني كمهندس هو الحرص على تطبيق أفضل الممارسات البرمجية (Clean Code) وسرعة استيعاب أحدث التقنيات. أبحث عن بيئة عمل احترافية تتيح لي المساهمة الفعالة في بناء وتطوير أنظمة برمجية متكاملة عالية الكفاءة."
       ]
     },
     heroBadges: [
-      "مطور واجهات React.js",
+      "مهندس برمجيات",
       "مهندس حاسبات ونظم",
-      "كود نظيف وتصميم UI/UX",
+      "كود نظيف ومعمارية ويب",
       "سريع التعلم والتكيف"
     ],
     floatingBadges: {
-      b1: "React.js و JS",
+      b1: "React.js و TypeScript",
       b2: "Tailwind وتصميم UI/UX",
       b3: "C++ و Python"
     },
@@ -352,7 +352,7 @@ export const portfolioContent = {
       {
         id: 1,
         value: "2026",
-        label: "خريج كلية الهندسة",
+        label: "مؤهل هندسة الحاسبات",
         description: "بكالوريوس حاسبات ونظم",
         icon: "GraduationCap"
       },
@@ -366,14 +366,14 @@ export const portfolioContent = {
       {
         id: 3,
         value: "100%",
-        label: "الشغف والالتزام",
-        description: "استعداد دائم للتعلم والعطاء",
+        label: "الإنتاجية والجودة",
+        description: "التزام بتسليم حلول برمجية متكاملة",
         icon: "Zap"
       },
       {
         id: 4,
         value: "4+",
-        label: "دورات تدريبية متخصصة",
+        label: "مجالات تخصصية",
         description: "تطوير الويب، قواعد البيانات، الأمان",
         icon: "BookOpen"
       }
@@ -419,8 +419,8 @@ export const portfolioContent = {
         category: "أطر عمل وتقنيات الويب (Frontend)",
         icon: "Layout",
         skills: [
-          { name: "React.js (Hooks & Components)", level: 88, tag: "المجال الأساسي" },
-          { name: "JavaScript (ES6+) & DOM", level: 85, tag: "متقن" },
+          { name: "React.js & Next.js", level: 88, tag: "التقنية الأساسية" },
+          { name: "JavaScript (ES6+) & TypeScript", level: 85, tag: "متقن" },
           { name: "Tailwind CSS & Modern Styling", level: 90, tag: "متقدم" },
           { name: "HTML5 & Semantic Markup", level: 92, tag: "متقدم" },
           { name: "CSS3 (Flexbox, Grid, Animations)", level: 90, tag: "متقدم" },
@@ -431,11 +431,11 @@ export const portfolioContent = {
         category: "لغات البرمجة والواجهات الخلفية",
         icon: "Server",
         skills: [
-          { name: "C / C++ (OOP & Algorithms)", level: 82, tag: "الأساس الأكاديمي" },
-          { name: "Python", level: 80, tag: "متقن" },
+          { name: "C / C++ (OOP & Algorithms)", level: 82, tag: "الأساس الهندسي" },
+          { name: "Python & Django Basics", level: 80, tag: "متقن" },
           { name: "PHP & Web Backend Logic", level: 75, tag: "معرفة عملية" },
-          { name: "MySQL & Relational Databases", level: 82, tag: "متقن" },
-          { name: "RESTful API Integration", level: 80, tag: "متقن" },
+          { name: "MySQL & PostgreSQL", level: 82, tag: "متقن" },
+          { name: "RESTful API Integration", level: 85, tag: "متقن" },
           { name: "Database Design & SQL Queries", level: 84, tag: "متقن" }
         ]
       },
@@ -445,10 +445,10 @@ export const portfolioContent = {
         skills: [
           { name: "Git & GitHub Version Control", level: 88, tag: "متقدم" },
           { name: "Docker (Containerization Basics)", level: 72, tag: "معرفة أساسية" },
-          { name: "Linux / Kali Linux Command Line", level: 78, tag: "متقن" },
+          { name: "Linux Command Line Environment", level: 78, tag: "متقن" },
           { name: "VS Code & Debugging Tools", level: 90, tag: "متقدم" },
           { name: "Vite & Modern Build Tooling", level: 85, tag: "متقن" },
-          { name: "Microsoft Excel (Data Analysis)", level: 85, tag: "متقن" }
+          { name: "Data Analysis & Tools", level: 85, tag: "متقن" }
         ]
       }
     ],
@@ -501,10 +501,10 @@ export const portfolioContent = {
         featured: false,
         highlights: [
           "تطوير تدفقات دفع تفاعلية تتوافق مع الهواتف أولاً، مع أقسام لضمانات الأمان ودعوات اتخاذ الإجراء (CTA)",
-          "بناء تجربة تحويل أموال رقمية تهدف لتحقيق أعلى معدلات تحويل مع تجربة مستخدم سلسة وتصميم يعزز الثقة",
+          "بناء تجربة تحويل أموال رقمية تهدف لتحقيق أعلى معدلات تحويل مع تجربة مستحدثة وتصميم يعزز الثقة",
           "تصميم بنية مكونات قابلة لإعادة الاستخدام مدعومة بهيكل محتوى نظيف وموجه بالبيانات"
         ]
-      },
+      }
     ],
     courses: [
       {
@@ -556,15 +556,15 @@ export const portfolioContent = {
       aboutSubtitle: "الملف التعريفي",
       aboutTitle: "نبذة",
       aboutTitleHighlight: "عني",
-      aboutDesc: "مهندس حاسبات ونظم حديث التخرج، شغوف بتطوير الواجهات الأمامية، سريع التعلم ومستعد للمساهمة الفعالة في فرق العمل.",
-      softSkillsTitle: "المهارات الشخصية ونقاط القوة",
-      softSkillsSubtitle: "السمات التي تجعل مني مرشحاً ذا إمكانات واعدة",
+      aboutDesc: "مهندس حاسبات ونظم متخصص في تطوير تطبيقات الويب، بناء معمارية كود نظيفة، والقدرة على التكيف مع أحدث أطر العمل.",
+      softSkillsTitle: "المهارات الشخصية والقيمة التقنية",
+      softSkillsSubtitle: "السمات التي تجعل مني مهندساً مساهماً بفعالية في فرق العمل",
       languagesTitle: "اللغات",
       languagesSubtitle: "تواصل فعال واحترافي في بيئات العمل متعددة الجنسيات",
       skillsSubtitle: "القدرات التقنية",
       skillsTitle: "المهارات و",
       skillsTitleHighlight: "التقنيات",
-      skillsDesc: "مجموعة مهارات برمجية وهندسية تم صقلها من خلال الدراسة الجامعية والمشاريع العملية.",
+      skillsDesc: "مجموعة مهارات برمجية وهندسية تم صقلها من خلال الدراسة الجامعية والمشاريع التطبيقية.",
       alsoExpWith: "خبرة إضافية في",
       projectsSubtitle: "أعمال مختارة",
       projectsTitle: "أبرز",
@@ -583,7 +583,7 @@ export const portfolioContent = {
       contactSubtitle: "دعنا نتواصل",
       contactTitle: "تواصل",
       contactTitleHighlight: "معي",
-      contactDesc: "أنا متاح حالياً للفرص الوظيفية في تطوير البرمجيات والواجهات الأمامية وبرامج التدريب. يسعدني مناقشة كيف يمكنني المساهمة في فريقكم!",
+      contactDesc: "أنا متاح حالياً لفرص تطوير البرمجيات والواجهات الأمامية وتطبيقات الويب. يسعدني مناقشة كيف يمكنني المساهمة في فريقكم!",
       contactDetails: "بيانات الاتصال",
       directEmail: "البريد الإلكتروني",
       phoneWhatsapp: "الهاتف / واتساب",
