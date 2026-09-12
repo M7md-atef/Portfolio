@@ -81,7 +81,7 @@ export const portfolioContent = {
     education: {
       degree: "B.S. in Engineering (Computer & Systems Major)",
       institution: "Minia University - Faculty of Engineering",
-      period: "2022 – 2026",
+      period: "2021 – 2026",
       location: "Minia, Egypt",
       grade: "Very Good (77.74%)",
       keyTopics: [
@@ -381,7 +381,7 @@ export const portfolioContent = {
     education: {
       degree: "بكالوريوس الهندسة (شعبة هندسة الحاسبات والنظم)",
       institution: "جامعة المنيا - كلية الهندسة",
-      period: "2022 – 2026",
+      period: "2021 – 2026",
       location: "المنيا، مصر",
       grade: "جيد جداً (77.74%)",
       keyTopics: [
