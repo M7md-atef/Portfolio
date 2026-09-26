@@ -152,7 +152,7 @@ export const portfolioContent = {
         ]
       }
     ],
-    projectCategories: ["All", "Featured Project", "Web Application"],
+    projectCategories: ["All", "Featured Project", "Web Application", "Interactive Web Game"],
     projects: [
       {
         id: 1,
@@ -203,6 +203,23 @@ export const portfolioContent = {
           "Engineered mobile-first interactive payment flows, security assurances, and CTA sections",
           "Built a high-conversion digital remittance experience with smooth UX and trust-focused design",
           "Architected reusable component pipelines backed by clean, data-driven content structures"
+        ]
+      },
+      {
+        id: 4,
+        title: "3D Tic-Tac-Toe – Tactile Arcade Game",
+        subtitle: "Customizable Browser-Based Tic-Tac-Toe with Minimax AI",
+        category: "Interactive Web Game",
+        description: "A tactile, arcade-inspired Tic-Tac-Toe experience featuring local multiplayer, three AI difficulty levels, customizable themes, persistent scorekeeping, animated feedback, and responsive CSS-based 3D effects.",
+        image: "/Tic-Tac-Toe.PNG",
+        techStack: ["Next.js", "React.js", "TypeScript", "Tailwind CSS", "Lucide Icons", "Minimax AI", "Web Audio API", "LocalStorage", "Canvas Confetti", "Git", "Vercel"],
+        liveUrl: "https://tic-tac-toe-3d-alpha.vercel.app/",
+        githubUrl: "https://github.com/M7md-atef/tic-tac-toe-3d",
+        featured: false,
+        highlights: [
+          "Engineered player-versus-player and player-versus-AI gameplay with Easy, Medium, and Impossible difficulty levels",
+          "Built a customizable arcade-console interface with five themes, token colors, sound controls, and interactive board tilt",
+          "Implemented reusable game architecture with Minimax AI, persistent scoreboards, match history, undo functionality, and responsive layouts"
         ]
       }
     ],
@@ -452,7 +469,7 @@ export const portfolioContent = {
         ]
       }
     ],
-    projectCategories: ["الكل", "مشروع رئيسي", "تطبيقات الويب"],
+    projectCategories: ["الكل", "مشروع رئيسي", "تطبيقات الويب", "ألعاب تفاعلية"],
     projects: [
       {
         id: 1,
@@ -503,6 +520,23 @@ export const portfolioContent = {
           "تطوير تدفقات دفع تفاعلية تتوافق مع الهواتف أولاً، مع أقسام لضمانات الأمان ودعوات اتخاذ الإجراء (CTA)",
           "بناء تجربة تحويل أموال رقمية تهدف لتحقيق أعلى معدلات تحويل مع تجربة مستحدثة وتصميم يعزز الثقة",
           "تصميم بنية مكونات قابلة لإعادة الاستخدام مدعومة بهيكل محتوى نظيف وموجه بالبيانات"
+        ]
+      },
+      {
+        id: 4,
+        title: "لعبة XO ثلاثية الأبعاد – لعبة أركيد تفاعلية",
+        subtitle: "لعبة XO قابلة للتخصيص مع ذكاء اصطناعي Minimax",
+        category: "ألعاب تفاعلية",
+        description: "لعبة XO ثلاثية الأبعاد تقدم تجربة أركيد تفاعلية مع ذكاء اصطناعي Minimax وخيارات تخصيص متعددة.",
+        image: "/Tic-Tac-Toe.PNG",
+        techStack: ["Next.js", "React.js", "TypeScript", "Tailwind CSS", "Lucide Icons", "Minimax AI", "Web Audio API", "LocalStorage", "Canvas Confetti", "Git", "Vercel"],
+        liveUrl: "https://tic-tac-toe-3d-alpha.vercel.app/",
+        githubUrl: "https://github.com/M7md-atef/tic-tac-toe-3d",
+        featured: false,
+        highlights: [
+          "تجربة أركيد تفاعلية مع تصميم ثلاثي الأبعاد",
+          "ذكاء اصطناعي Minimax بمستويات صعوبة مختلفة",
+          "خيارات تخصيص متعددة لللعبة"
         ]
       }
     ],
