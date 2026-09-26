@@ -207,7 +207,7 @@ export const portfolioContent = {
       },
       {
         id: 4,
-        title: "3D Tic-Tac-Toe – Tactile Arcade Game",
+        title: "Tic-Tac-Toe – Tactile Arcade Game",
         subtitle: "Customizable Browser-Based Tic-Tac-Toe with Minimax AI",
         category: "Interactive Web Game",
         description: "A tactile, arcade-inspired Tic-Tac-Toe experience featuring local multiplayer, three AI difficulty levels, customizable themes, persistent scorekeeping, animated feedback, and responsive CSS-based 3D effects.",
@@ -524,7 +524,7 @@ export const portfolioContent = {
       },
       {
         id: 4,
-        title: "لعبة XO ثلاثية الأبعاد – لعبة أركيد تفاعلية",
+        title: "لعبة XO – لعبة أركيد تفاعلية",
         subtitle: "لعبة XO قابلة للتخصيص مع ذكاء اصطناعي Minimax",
         category: "ألعاب تفاعلية",
         description: "لعبة XO ثلاثية الأبعاد تقدم تجربة أركيد تفاعلية مع ذكاء اصطناعي Minimax وخيارات تخصيص متعددة.",
